@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充电功率监测"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"/>
+
+    <!-- 功率信息显示区 -->
+    <TextView
+        android:id="@+id/powerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正在初始化..."
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:lineSpacingExtra="12dp"/>
+
+    <!-- 状态提示 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="数据每1秒更新一次"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- 设备兼容性提示 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="*部分设备可能因系统限制无法获取完整数据"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"/>
+        
+    <!-- 开发者 -->
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="本应用由酷安@ying5544开发" />
+
+</LinearLayout>
+

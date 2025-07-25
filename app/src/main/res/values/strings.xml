@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">充电功率监测</string>
+    <string name="initializing">初始化中，请稍候...</string>
+    <string name="no_data">无法获取电池数据，请检查设备支持情况</string>
+</resources>
+
